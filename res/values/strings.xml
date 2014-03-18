@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Turn-Collage</string>
+    <string name="btn001">Take Picture</string>
+	<string name="menu_camera_option">Camera</string>
+	<string name="menu_gallery_option">Gallery</string>
+	<string name="menu_facebook_option">Facebook</string>
+	<string name="menu_instagram_option">Instagram</string>
+</resources>

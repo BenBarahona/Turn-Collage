@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Retrieved via Resources.getColor() and friends. -->
+    <color name="red">#80281a</color>
+    <color name="dark_gray">#222222</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="lighter_gray">#E0E0E0</color>
+    <color name="black">#000000</color>
+    <color name="black_80_percent">#CC000000</color>
+    <color name="black_50_percent">#80000000</color>
+    <color name="ligth_black">#191919</color>
+    <color name="light_background_black">#121212</color>
+    <color name="white">#FFFFFF</color>
+	<color name="ptrHeaderTextColor">#FFFFFF</color>
+</resources>
