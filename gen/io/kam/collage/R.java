@@ -9,45 +9,168 @@ package io.kam.collage;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dividerWidth=0x7f010004;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int entries=0x7f010003;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int footerDividersEnabled=0x7f010006;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int headerDividersEnabled=0x7f010005;
+        /**  
+        When "wrap_content" is used as value of the layout_height property.
+        Pass the position, inside the adapter, of the view being used to measure the view
+        or '-1' to use the default behavior ( default is -1 )
+        
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int measureWithChild=0x7f010009;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int overScrollFooter=0x7f010008;
+        /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int overScrollHeader=0x7f010007;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int sephiroth_absHListViewStyle=0x7f010001;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int sephiroth_listPreferredItemWidth=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int sephiroth_listViewStyle=0x7f010000;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int stackFromRight=0x7f01000a;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>disabled</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>alwaysScroll</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int transcriptMode=0x7f01000b;
     }
     public static final class color {
-        public static final int black=0x7f040005;
-        public static final int black_50_percent=0x7f040007;
-        public static final int black_80_percent=0x7f040006;
-        public static final int dark_gray=0x7f040001;
-        public static final int gray=0x7f040002;
-        public static final int light_background_black=0x7f040009;
-        public static final int light_gray=0x7f040003;
-        public static final int lighter_gray=0x7f040004;
-        public static final int ligth_black=0x7f040008;
-        public static final int ptrHeaderTextColor=0x7f04000b;
+        public static final int black=0x7f050005;
+        public static final int black_50_percent=0x7f050007;
+        public static final int black_80_percent=0x7f050006;
+        public static final int dark_gray=0x7f050001;
+        public static final int gray=0x7f050002;
+        public static final int light_background_black=0x7f050009;
+        public static final int light_gray=0x7f050003;
+        public static final int lighter_gray=0x7f050004;
+        public static final int ligth_black=0x7f050008;
+        public static final int ptrHeaderTextColor=0x7f05000b;
         /**  Retrieved via Resources.getColor() and friends. 
          */
-        public static final int red=0x7f040000;
-        public static final int white=0x7f04000a;
+        public static final int red=0x7f050000;
+        public static final int white=0x7f05000a;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int actionbar_done_icon=0x7f020000;
+        public static final int actionbar_done_icon_down=0x7f020001;
+        public static final int collage_image_filler=0x7f020002;
+        public static final int hlv_overscroll_edge=0x7f020003;
+        public static final int hlv_overscroll_glow=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int loadfromgallery_icon=0x7f020006;
+        public static final int sample_layout_background=0x7f020007;
+        public static final int takephoto_icon=0x7f020008;
+        public static final int temp_layout_image2=0x7f020009;
+        public static final int temp_thumbnail=0x7f02000a;
+        public static final int temp_thumbnail2=0x7f02000b;
     }
     public static final class id {
-        public static final int ViewColorPickerHelper=0x7f070000;
-        public static final int button1=0x7f070001;
-        public static final int button2=0x7f070002;
-        public static final int cam_layout_picker=0x7f070003;
-        public static final int source_icon=0x7f070004;
-        public static final int source_text=0x7f070005;
+        public static final int alwaysScroll=0x7f040002;
+        public static final int collage_background=0x7f040003;
+        public static final int collage_container=0x7f040004;
+        public static final int collage_frame=0x7f040006;
+        public static final int collage_list=0x7f040007;
+        public static final int collage_save=0x7f04000e;
+        public static final int collage_thumbnail_id=0x7f040005;
+        public static final int disabled=0x7f040000;
+        public static final int main_imageview=0x7f040009;
+        public static final int main_takepicture_btn=0x7f040008;
+        public static final int normal=0x7f040001;
+        public static final int photo_grid_cell_image=0x7f04000a;
+        public static final int photo_picker_grid=0x7f04000b;
+        public static final int source_icon=0x7f04000c;
+        public static final int source_text=0x7f04000d;
     }
     public static final class layout {
-        public static final int collage_view=0x7f030000;
-        public static final int source_picker_layout=0x7f030001;
+        public static final int collage_layout=0x7f030000;
+        public static final int collage_picker_cell_layout=0x7f030001;
+        public static final int collage_picker_layout=0x7f030002;
+        public static final int main_layout=0x7f030003;
+        public static final int photo_picker_cell_layout=0x7f030004;
+        public static final int photo_picker_layout=0x7f030005;
+        public static final int source_picker_layout=0x7f030006;
+    }
+    public static final class menu {
+        public static final int collage_menu=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int btn001=0x7f050001;
-        public static final int menu_camera_option=0x7f050002;
-        public static final int menu_facebook_option=0x7f050004;
-        public static final int menu_gallery_option=0x7f050003;
-        public static final int menu_instagram_option=0x7f050005;
+        public static final int actionbar_save=0x7f060007;
+        public static final int app_name=0x7f060000;
+        public static final int btn001=0x7f060001;
+        public static final int description=0x7f060006;
+        public static final int menu_camera_option=0x7f060002;
+        public static final int menu_facebook_option=0x7f060004;
+        public static final int menu_gallery_option=0x7f060003;
+        public static final int menu_instagram_option=0x7f060005;
     }
     public static final class style {
         /** 
@@ -71,10 +194,237 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a AbsHListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AbsHListView_android_cacheColorHint android:cacheColorHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_choiceMode android:choiceMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_drawSelectorOnTop android:drawSelectorOnTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_listSelector android:listSelector}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_scrollingCache android:scrollingCache}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_android_smoothScrollbar android:smoothScrollbar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_stackFromRight io.kam.collage:stackFromRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AbsHListView_transcriptMode io.kam.collage:transcriptMode}</code></td><td></td></tr>
+           </table>
+           @see #AbsHListView_android_cacheColorHint
+           @see #AbsHListView_android_choiceMode
+           @see #AbsHListView_android_drawSelectorOnTop
+           @see #AbsHListView_android_listSelector
+           @see #AbsHListView_android_scrollingCache
+           @see #AbsHListView_android_smoothScrollbar
+           @see #AbsHListView_stackFromRight
+           @see #AbsHListView_transcriptMode
+         */
+        public static final int[] AbsHListView = {
+            0x010100fb, 0x010100fc, 0x010100fe, 0x01010101,
+            0x0101012b, 0x01010231, 0x7f01000a, 0x7f01000b
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#cacheColorHint}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:cacheColorHint
+        */
+        public static final int AbsHListView_android_cacheColorHint = 3;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#choiceMode}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:choiceMode
+        */
+        public static final int AbsHListView_android_choiceMode = 4;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#drawSelectorOnTop}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:drawSelectorOnTop
+        */
+        public static final int AbsHListView_android_drawSelectorOnTop = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#listSelector}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:listSelector
+        */
+        public static final int AbsHListView_android_listSelector = 0;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#scrollingCache}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:scrollingCache
+        */
+        public static final int AbsHListView_android_scrollingCache = 2;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#smoothScrollbar}
+          attribute's value can be found in the {@link #AbsHListView} array.
+          @attr name android:smoothScrollbar
+        */
+        public static final int AbsHListView_android_smoothScrollbar = 5;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#stackFromRight}
+          attribute's value can be found in the {@link #AbsHListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name io.kam.collage:stackFromRight
+        */
+        public static final int AbsHListView_stackFromRight = 6;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#transcriptMode}
+          attribute's value can be found in the {@link #AbsHListView} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>disabled</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>alwaysScroll</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name io.kam.collage:transcriptMode
+        */
+        public static final int AbsHListView_transcriptMode = 7;
+        /** Attributes that can be used with a HListView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HListView_android_divider android:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_android_entries android:entries}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_dividerWidth io.kam.collage:dividerWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_footerDividersEnabled io.kam.collage:footerDividersEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_headerDividersEnabled io.kam.collage:headerDividersEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_measureWithChild io.kam.collage:measureWithChild}</code></td><td> 
+        When "wrap_content" is used as value of the layout_height property.</td></tr>
+           <tr><td><code>{@link #HListView_overScrollFooter io.kam.collage:overScrollFooter}</code></td><td></td></tr>
+           <tr><td><code>{@link #HListView_overScrollHeader io.kam.collage:overScrollHeader}</code></td><td></td></tr>
+           </table>
+           @see #HListView_android_divider
+           @see #HListView_android_entries
+           @see #HListView_dividerWidth
+           @see #HListView_footerDividersEnabled
+           @see #HListView_headerDividersEnabled
+           @see #HListView_measureWithChild
+           @see #HListView_overScrollFooter
+           @see #HListView_overScrollHeader
+         */
+        public static final int[] HListView = {
+            0x010100b2, 0x01010129, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009
+        };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#divider}
+          attribute's value can be found in the {@link #HListView} array.
+          @attr name android:divider
+        */
+        public static final int HListView_android_divider = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#entries}
+          attribute's value can be found in the {@link #HListView} array.
+          @attr name android:entries
+        */
+        public static final int HListView_android_entries = 0;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#dividerWidth}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name io.kam.collage:dividerWidth
+        */
+        public static final int HListView_dividerWidth = 2;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#footerDividersEnabled}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name io.kam.collage:footerDividersEnabled
+        */
+        public static final int HListView_footerDividersEnabled = 4;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#headerDividersEnabled}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name io.kam.collage:headerDividersEnabled
+        */
+        public static final int HListView_headerDividersEnabled = 3;
+        /**
+          <p>
+          @attr description
+           
+        When "wrap_content" is used as value of the layout_height property.
+        Pass the position, inside the adapter, of the view being used to measure the view
+        or '-1' to use the default behavior ( default is -1 )
+        
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name io.kam.collage:measureWithChild
+        */
+        public static final int HListView_measureWithChild = 7;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#overScrollFooter}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name io.kam.collage:overScrollFooter
+        */
+        public static final int HListView_overScrollFooter = 6;
+        /**
+          <p>This symbol is the offset where the {@link io.kam.collage.R.attr#overScrollHeader}
+          attribute's value can be found in the {@link #HListView} array.
+
+
+          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+          @attr name io.kam.collage:overScrollHeader
+        */
+        public static final int HListView_overScrollHeader = 5;
+    };
 }

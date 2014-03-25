@@ -6,4 +6,6 @@
 	<string name="menu_gallery_option">Gallery</string>
 	<string name="menu_facebook_option">Facebook</string>
 	<string name="menu_instagram_option">Instagram</string>
+	<string name="description">ImageViewDescription</string>
+	<string name="actionbar_save">Save Collage</string>
 </resources>
